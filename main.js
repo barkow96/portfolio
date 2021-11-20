@@ -1,4 +1,32 @@
-import projects from "./projects.js";
+const projects = [
+    {name: "Chess Game",
+    description: "My implementation of chess game using HTML, CSS and vanilla JS. Play the game of kings!",
+    skills: ["HTML", "CSS", "JS"],
+    image: "./img/PR_00_img.png",
+    video: "./img/PR_00_vid.mp4",
+    link: "https://barkow96.github.io/chess-game/"},
+
+    {name: "Snake Game",
+    description: "My implementation of snake game using HTML, CSS (Tailwind) and vanilla JS.",
+    skills: ["HTML", "Tailwind CSS", "JS"],
+    image: "./img/PR_01_img.png",
+    video: "./img/PR_01_vid.mp4",
+    link: "https://barkow96.github.io/snake-game/"},
+
+    {name: "Slider App",
+    description: "Photo gallery using React.js.",
+    skills: ["HTML", "CSS", "React JS"],
+    image: "./img/PR_02_img.png",
+    video: "./img/PR_02_vid.mp4",
+    link: "https://barkow96.github.io/slider-app/"},
+
+    {name: "Sorting Algorithms",
+    description: "Comparison of sorting algorithms: bubble sort, selection sort, quick sort.",
+    skills: ["HTML", "CSS", "JS"],
+    image: "./img/PR_03_img.png",
+    video: "./img/PR_03_vid.mp4",
+    link: "https://barkow96.github.io/algorithms-sorting/"}
+];
 
 //GET ACCESS TO HTML ELEMENTS
 const projectDivs = document.querySelectorAll(".project");
