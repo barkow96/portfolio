@@ -1,0 +1,353 @@
+/*--- MAIN STYLES ---*/
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: fit-content;
+    background-color: #333;
+    color: white;
+
+    box-sizing: border-box;
+    user-select: none;
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    font-size: 12px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*--- HEADER ---*/
+#header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-height: 90px;
+    margin-bottom: 0;
+    height: fit-content;
+    z-index: 999;
+    
+}
+
+#header > h1 {
+    margin: 0;
+}
+
+/*--- CONTENT ---*/
+#container {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+
+    background-color: rgba(211, 211, 211, 0.8);
+    background-image: url("./img/background_01.jpeg");
+    background-image: url("./img/bg-7.jpeg");
+    background-repeat: round;
+    
+}
+
+/*--- LEFT SIDE ---*/
+#personal {
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 40%;
+    height: 100%;
+    height: fit-content;
+    margin: auto;
+    border-right:  dashed 2px red; 
+}
+
+#description {
+    width: 80%;
+    margin: auto;
+}
+
+#techstack {
+    display: flex;
+}
+
+.stack {
+    width: 50%;
+}
+
+img.skillIcon {
+    width: 35px;
+    height: 40px;
+}
+
+/*--- RIGHT SIDE ---*/
+#achievements {
+    /*
+    background-color: rgba(51, 51, 51, 1.0);
+    */
+      
+    box-sizing: border-box;
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+}
+
+#mainProject {
+    box-sizing: border-box;
+    min-height: 200px;
+    height: 600px;
+    min-width: 200px;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 45px white;
+}
+
+#mainProject:hover {
+    transform: translateX(10px);
+}
+
+#mainProjectName {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#mainProjectIMG {
+    width: 400px;
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+    
+}
+
+#mainProjectDescription {
+    font-size: 18px;
+    min-height: 50px;
+}
+
+#mainProjectSkills {
+    width: 40%;
+    margin: auto;
+    margin-top: 0;
+
+    list-style-type: square;
+    font-size: 20px;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    min-width: 200px;
+    max-width: 420px;
+    
+}
+
+.project {
+    width: 100px;
+    height: 100px;
+
+    z-index: 1;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.project > img {
+    border-radius: 15px;
+}
+
+.project:nth-child(2) {
+    width: 130px;
+    height: 130px;
+    transform: translateX(-5%);
+
+    z-index: 99;
+    opacity: 1;
+}
+
+.project:nth-child(2) > img {
+    max-width: 110%;
+    max-height: 110%;  
+}
+
+/*--- FOOTER ---*/
+#footer {
+    position: sticky;
+    bottom: 0;
+    
+    margin-top: 10px;
+    padding: 5px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+
+    z-index: 999;
+}
+
+#footer > h2 {
+    margin-bottom: 0;
+}
+
+.contact {
+    max-height: 50px;
+}
+
+.contact > a {
+    color: white;
+}
+
+img.contactIcon {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 11px;
+    }
+
+    #header {
+        max-height: 50px;
+    }
+
+    #container {
+        display: block;
+    }
+
+    #personal, #achievements {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #personal {
+        border-right: none;
+        border-bottom:  dashed 2px red; 
+    }
+
+    img.skillIcon {
+        width: 25px;
+        height: 30px;
+    }
+
+    ul > li > a {
+        font-size: 8px;
+    }
+
+    #mainProject {
+        min-width: 50%;
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    #mainProjectName {
+        font-size: 25px;
+    }
+
+    #mainProjectDescription {
+        font-size: 10px;
+    }
+
+    #mainProjectSkills {
+        width: 55%;
+        font-size: 12px;
+    }
+
+    #projects {
+        min-width: 50%;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .project {
+        height: fit-content;
+    }
+    
+    .project:nth-child(2) {
+        height: fit-content;
+    }
+
+    .project > img {
+        border-radius: 10px;
+    }
+
+    img.contactIcon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contact > a {
+        font-size: 10px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 300px) { 
+    #footer {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 9px;
+    }
+
+    h3 {
+        font-size: 8px;
+    }
+
+    #mainProjectName {
+        font-size: 14px;
+    }
+    img.contactIcon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .contact {
+        font-size: 5px;
+    }
+
+    .contact > a {
+        font-size: 5px;
+    }
+    
+}
