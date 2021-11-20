@@ -1,11 +1,11 @@
-import IMG_00 from "./img/PR_00_img.png";
-import IMG_01 from "./img/PR_01_img.png";
-import IMG_02 from "./img/PR_02_img.png";
-import IMG_03 from "./img/PR_03_img.png";
-import VID_00 from "./img/PR_00_vid.mp4";
-import VID_01 from "./img/PR_01_vid.mp4";
-import VID_02 from "./img/PR_02_vid.mp4";
-import VID_03 from "./img/PR_03_vid.mp4";
+const IM_00 = "./img/PR_00_img.png";
+const IM_01 = "./img/PR_00_img.png";
+const IM_02 = "./img/PR_00_img.png";
+const IM_03 = "./img/PR_00_img.png";
+const VID_00 = "./img/PR_00_vid.mp4";
+const VID_01 = "./img/PR_01_vid.mp4";
+const VID_02 = "./img/PR_02_vid.mp4";
+const VID_03 = "./img/PR_03_vid.mp4";
 
 const projects = [
     {name: "Chess Game",
