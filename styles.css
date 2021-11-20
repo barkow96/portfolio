@@ -257,6 +257,10 @@ img.contactIcon {
         min-height: 250px;
     }
     
+    #check {
+        font-size: 12px;
+    }
+    
     #check:hover {
         font-size: 14px;
     }
@@ -296,6 +300,10 @@ img.contactIcon {
     img.skillIcon {
         height: 25px;
         width: 25px;
+    }
+    
+    #check {
+        font-size: 8px;
     }
     
     #check:hover {
