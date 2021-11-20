@@ -256,6 +256,10 @@ img.contactIcon {
     #mainProjectVID {
         min-height: 250px;
     }
+    
+    #check:hover {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -292,6 +296,10 @@ img.contactIcon {
     img.skillIcon {
         height: 25px;
         width: 25px;
+    }
+    
+    #check:hover {
+        font-size: 10px;
     }
 
     #check::after {
