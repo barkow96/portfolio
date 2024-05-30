@@ -28,12 +28,12 @@ const projects: projectType[] = [
 
 	{
 		id: 1,
-		name: "Snake Game",
-		description: "My implementation of snake game. Control the snake with WSAD buttons and collect as many fruits as possible.",
-		skills: ["HTML", "Tailwind CSS", "JavaScript"],
-		image: "./img/PR_01_img.png",
-		video: "./img/PR_01_vid.mp4",
-		link: "https://barkow96.github.io/snake-game/",
+		name: "Cryptocurrencies Tracker",
+		description: "Responsive cryptocurrencies tracker. You can check live coin prices and create your own coin portfolio to track gains and losses.",
+		skills: ["NextJS with TypeScript", "ChakraUI", "Strapi (PostgreSQL)"],
+		image: "./img/PR_06_img.png",
+		video: "./img/PR_06_vid.mp4",
+		link: "https://github.com/barkow96/crypto-tracker",
 	},
 
 	{
@@ -75,6 +75,16 @@ const projects: projectType[] = [
 		image: "./img/PR_03_img.png",
 		video: "./img/PR_03_vid.mp4",
 		link: "https://barkow96.github.io/algorithms-sorting/",
+	},
+
+	{
+		id: 6,
+		name: "Snake Game",
+		description: "My implementation of snake game. Control the snake with WSAD buttons and collect as many fruits as possible.",
+		skills: ["HTML", "Tailwind CSS", "JavaScript"],
+		image: "./img/PR_01_img.png",
+		video: "./img/PR_01_vid.mp4",
+		link: "https://barkow96.github.io/snake-game/",
 	},
 ];
 

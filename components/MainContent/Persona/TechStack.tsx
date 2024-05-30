@@ -6,12 +6,13 @@ export default function TechStack() {
 		<div className={classes.techstack}>
 			<TechStackitem link="https://en.wikipedia.org/wiki/HTML" imgSrc="./img/HTML.png">
 				<p>HTML</p>
+				<p>CSS / SCSS</p>
 			</TechStackitem>
 
 			<TechStackitem link="https://en.wikipedia.org/wiki/CSS" imgSrc="./img/CSS.png">
-				<p>CSS / SCSS</p>
 				<p>Bootstrap</p>
 				<p>Material UI</p>
+				<p>Chakra UI</p>
 			</TechStackitem>
 
 			<TechStackitem link="https://en.wikipedia.org/wiki/JavaScript" imgSrc="./img/JS.jpg">
