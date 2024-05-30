@@ -1,0 +1,22 @@
+.aboutme > img {
+	border-radius: 15px;
+}
+
+.description {
+	width: 90%;
+	margin: auto;
+}
+
+.description > h3 {
+	font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+	.description {
+		margin-bottom: 60px;
+	}
+
+	.description > p {
+		font-size: 14px;
+	}
+}

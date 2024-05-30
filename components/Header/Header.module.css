@@ -1,0 +1,33 @@
+.header {
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+
+	max-height: 90px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+	z-index: 999;
+}
+
+.header > h1 {
+	margin: 0px;
+	margin-bottom: 0px;
+
+	font-family: "Sixtyfour", sans-serif;
+}
+
+.header > h2 {
+	margin-top: 2px;
+
+	font-style: italic;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		max-height: 50px;
+	}
+}

@@ -1,0 +1,23 @@
+.techstack {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.skill > a {
+	color: #f3b664;
+	font-weight: bold;
+}
+
+.skillIcon {
+	width: 35px;
+	height: 35px;
+}
+
+@media screen and (max-width: 500px) {
+	.skillIcon {
+		height: 25px;
+		width: 25px;
+	}
+}
