@@ -29,7 +29,7 @@ const projects: projectType[] = [
 	{
 		id: 1,
 		name: "Cryptocurrencies Tracker",
-		description: "Responsive cryptocurrencies tracker. You can check live coin prices and create your own coin portfolio to track gains and losses.",
+		description: "Responsive cryptocurrencies tracker. You can check live coin prices and create your own portfolio to track gains and losses.",
 		skills: ["NextJS with TypeScript", "ChakraUI", "Strapi (PostgreSQL)"],
 		image: "./img/PR_06_img.png",
 		video: "./img/PR_06_vid.mp4",
